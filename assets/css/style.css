@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: arial;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1%;
+}
+
+.main-header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 60px;
+}
+
+
+h1 {
+    font-weight: bold;
+    
+    color: magenta;
+    text-align: center;
+}
+
+h5 {
+    color: white;
+    text-align: center;
+}
+
+body {
+    background-color: slategray;
+}
+
+.card {
+    flex: 1 0 0;
+    padding: 10px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.card header {
+    position: relative;
+    padding: 20px;
+}
